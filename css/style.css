@@ -1,0 +1,255 @@
+*{ padding: 0%;
+margin: 0;
+box-sizing: 0;}
+
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+/*Nav*/
+.nav{
+    position: static;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-list{  
+text-align: right;
+padding: 10px;
+}
+
+.nav-list li {
+    margin: 30px;
+    background-color: red;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.full-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../multimedia/humo.jpg)   
+    
+    
+}
+.logo{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    top: 0;
+    padding: 20px;
+    margin: 20px;
+}
+    
+
+/*albumes*/
+
+.recom{
+    color: red;
+    font-size: 36px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+
+.songs1{
+padding-right: 50%;
+padding-left: 60px; 
+padding-top: 10px;
+height: 60%;
+background-color: rgba(0, 0, 0, 0.501);
+}
+
+.songs2{
+    padding-left: 50%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+
+
+
+.noticias{
+    color: white;
+    padding: 10px;  
+    width: 25%;
+    height: auto;
+    ;
+}
+#landing-p{
+    padding-top: 25px;
+}
+
+/*videoclips index*/
+.welcome{
+    width: 100%;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: solid;
+    margin: 0;
+    border-radius: 10px;
+    background-color: black;
+    padding-bottom: 10px;
+    
+}
+
+.videoclips1{
+    color: red;
+    text-align: left;
+padding-top: 20px;
+font-size: 30px;
+margin: 20px;
+background-color: rgba(0, 0, 0, 0.501);
+}
+.videoclips1 button{
+    margin: 20px;
+    font-size: 20px;
+}
+.videoclips1 h4 {
+    position: absolute;
+    right: 25%;
+    top: 32%;
+    text-decoration: underline;
+    
+}
+.videoclips1 p{
+    position: absolute;
+    height: 45%;
+    width: 50%;
+    right: 20px;
+    top: 40%; 
+}
+.videoclip2{
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+
+
+/*Biografia*/
+.Biografia{
+    color: white;
+    text-align: left;
+    width: 45%;
+    height: 100%;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.478);
+    padding: 20px;
+
+}
+.Biografia h2{
+    text-decoration: underline;
+    color: red;
+}
+.em1{
+    padding: 20px;
+    top: 17%;
+    position: absolute;
+    right: 0;
+    
+    
+    
+}
+.em2{
+    padding: 20px;
+    position: absolute;
+    top: 900px;
+    right: 0;
+}
+
+/*Noticias*/
+.noticias1{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.501);
+    font-size: 24px;
+    text-align: left;
+    width: 45%;
+    margin: 20px;
+}
+.noticias1 img{
+    position: relative;
+    left: 85px;
+    top: 10px;    
+    padding: 20px;
+}
+
+.fechas{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.501);
+    font-size: 36px;
+    position: absolute;
+    top: 19%;
+    right: 20px;
+    padding: 20px;
+    width: 45% ;
+    text-align: center;
+
+}
+.fechas table{
+position: relative;
+left: 50px;
+}
+ .lanzamientos{
+    color: red;
+    background-color:rgba(0, 0, 0, 0.501) ;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    position: absolute;
+    right: 100px;
+    top: 65%;
+ }
+ 
+ /*contacto*/
+ .cont1{
+    color: red;
+    background-color:rgba(0, 0, 0, 0.501) ;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    padding-bottom: 300px;
+ }
+ .form1{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+   
+
+}
+.eml1{
+    left: 44%;
+    position: absolute;
+    top: 45%;
+    
+}
+
+
+/*footer*/
+
+.footer{
+    position: static;
+    color: red;
+    bottom: 0%;
+    text-align: center; 
+    width: 100%;    
+    background-color: black;
+}
+.foot-link{
+color: red;
+padding: 10px;
+text-decoration: none;
+display: inline-block;
+bottom: 0;
+
+}
