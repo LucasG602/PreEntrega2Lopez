@@ -64,106 +64,100 @@ box-sizing: 0;}
 
 /*albumes*/
 
-.recom{
-    color: red;
-    font-size: 36px;
-    text-decoration: underline;
+.grid-layout-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'area1 area1'
+    'area2 area2'
+    'area4 area4'
+    'area3 area3';
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.501);
+    margin: 1%;
+    gap: 5px;
+    padding-top: 5% ;
 }
+.caja-a{
+    background-color: rgba(0, 0, 0, 0.500);
+    color: red;
 
-.songs1{
-padding-right: 50%;
-padding-left: 60px; 
-padding-top: 10px;
-height: 60%;
-background-color: rgba(0, 0, 0, 0.501);
 }
-
-.songs2{
-    padding-left: 50%;
-    height: 60%;
-    background-color: rgba(0, 0, 0, 0.501);
+.ca1{
+    grid-area: area1;
 }
-
-
-
+.ca2{grid-area: area2;}
+.ca3{grid-area: area3;
+}
+.ca4{grid-area: area4;}
+.grid-layout-3 h2{
+    text-decoration: underline;
+}
+.grid-layout-3 h3{
+    text-decoration: underline;
+}
 /*Biografia*/
-.Biografia{
+.grid-layout-4{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 'area1 area2'
+    'area1 area2';
+    text-align: center;
+    padding-top: 5%;
+    margin: 1%;
+    gap: 5px;
+}
+.caja-b{
+    background-color: rgba(0, 0, 0, 0.500);
     color: white;
-    text-align: left;
-    width: 45%;
-    height: 100%;
-    font-size: 36px;
-    background-color: rgba(0, 0, 0, 0.478);
-    padding: 20px;
+    font-size: 28px;
 
 }
-.Biografia h2{
+.cb1{grid-area: area1;}
+.cb2{grid-area: area2;}
+.caja-b h2{
     text-decoration: underline;
     color: red;
-}
-.em1{
-    padding: 20px;
-    top: 17%;
-    position: absolute;
-    right: 0;
-    
-    
-    
-}
-.em2{
-    padding: 20px;
-    position: absolute;
-    top: 900px;
-    right: 0;
 }
 
 /*Noticias*/
-.noticias1{
+.grid-layout-2{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 5px;
+    grid-template-areas: 'area1 area2'
+    'area1 area3';
     color: red;
-    background-color: rgba(0, 0, 0, 0.501);
-    font-size: 24px;
-    text-align: left;
-    width: 45%;
-    margin: 20px;
+    text-align: center;
+    padding-top: 5%;
 }
-.noticias1 img{
-    position: relative;
-    left: 85px;
-    top: 10px;    
-    padding: 20px;
+.caja-n{
+    background-color: rgba(0, 0, 0, 0.500);
+}
+.cn1{
+    grid-area: area1;
+    
+    
+}
+.cn2{
+    grid-area: area2;
+    font-size: 24px;
+    
+}
+.cn3{
+    grid-area: area3;
+    
+    
+}
+.cn2 table{
+    margin: auto;
 }
 
-.fechas{
-    color: red;
-    background-color: rgba(0, 0, 0, 0.501);
-    font-size: 36px;
-    position: absolute;
-    top: 19%;
-    right: 20px;
-    padding: 20px;
-    width: 45% ;
-    text-align: center;
-
-}
-.fechas table{
-position: relative;
-left: 50px;
-}
- .lanzamientos{
-    color: red;
-    background-color:rgba(0, 0, 0, 0.501) ;
-    text-align: center;
-    font-size: 24px;
-    padding: 20px;
-    position: absolute;
-    right: 100px;
-    top: 65%;
- }
- 
- /*contacto*/
- .cont1{
+    /*contacto*/
+    .cont1{
     color: red;
     background-color:rgba(0, 0, 0, 0.501) ;
     font-size: 24px;
@@ -197,6 +191,7 @@ left: 50px;
     text-align: center; 
     width: 100%;    
     background-color: black;
+    text-decoration: none;
 }
 .foot-link{
 color: red;
