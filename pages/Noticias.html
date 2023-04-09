@@ -12,56 +12,53 @@
 <body class="full-back">
 
     <header>
-        
-        <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Emanero</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Emanero</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="albumes.html">Albumes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Biografia.html">Biografia</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Contacto.html">Contacto</a>
-                      </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Emanero</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Emanero</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-          </nav>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="albumes.html">Albumes</a>
+                </li>
+                <li><a class="nav-link" href="Biografia.html">Biografia</a></li>
+                <li><a class="nav-link" href="Contacto.html">Contacto</a></li>
+              </ul>
+                <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
             
             
     </header>
     <main>
-        <a href="../index.html"><img src="../multimedia/Logo.jpg" alt="logo" class="logo" style="height: 45px; width: 45px;"></a>
-
-        <section class="noticias1">
+        
+          <Section class="grid-layout-2">
+            <div class="caja-n cn1">
+        
             <h2>Noticias</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum tempore delectus, illo quisquam ad deserunt, illum, dolore impedit nisi sapiente totam. Unde, eaque labore non fuga eius illum odit?</p>
             <img src="../multimedia/em3.jpg" alt="em3" style="height: 600px; width: 500px;">
+          </div>
 
             
-        </section>
+      
         
-        <section class="fechas">
+        <div class="caja-n cn2">
             <h2>Fechas:</h2>
             <table> 
                 <tr>
@@ -88,22 +85,21 @@
         
                 </tr>
             </table>
-
-        </section>
+          </div>
         
-        <section class="lanzamientos">
+        
+          <div class="caja-n cn3">
             <h2>Lanzamientos:</h2>
             <h3>El videoclip de "Bandido" supero los 45M!</h3>
             <p>Miralo Aca</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/G-jKlhaA1_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        </section>
-    
+          </div>
+       
         
 
 
 
-
+          </Section>
 
 
 
