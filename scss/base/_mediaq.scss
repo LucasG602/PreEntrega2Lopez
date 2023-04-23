@@ -1,0 +1,70 @@
+@media screen and (max-width:480px) {
+    /*index responsive*/
+    .grid-layout-1{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 'area1'
+    'area2'
+    'area3';}
+    .c1 iframe{
+        height: 400px;
+        width: 315px;
+    }
+    .c1{
+        padding: 10px;
+    }
+    .c2 {
+    background-image: url(../multimedia/em4.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    padding: 20%;
+}
+.c2 img{
+    display: none;
+}
+.c3{
+    padding: 10px;
+}
+
+
+
+/*albumes responsive*/
+.grid-layout-3{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 'area1'
+    'area2'
+    'area3'
+    'area5';
+    padding: 20px;
+    gap: 25px;
+}
+.ca1{margin-top: 20%;
+font-size: large;
+height: 30%;}
+.songs2{display: none;}
+.ca4{display: none;}
+.ca2 h3 { display: none;}
+.songs1{width: 100%;}
+.ca5{display: grid;
+height: 30%;
+}
+.ca5 a{text-decoration: solid;
+font-size: 24px;
+background-color: #1db954;
+color: black;
+border-radius: 100px ;
+margin-bottom: 25px;
+
+}
+
+}
+@media screen and (max-width: 1000px){
+    .ca1{
+        margin-top: 10%;
+    }
+    
+}
+

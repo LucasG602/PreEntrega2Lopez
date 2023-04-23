@@ -1,0 +1,27 @@
+.grid-layout-5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    margin: 1%;
+    padding-top: 5%;
+    grid-template-areas: 'area1 area1'
+    'area2 area3'
+    'area2 area3'
+    'area2 area3';
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+}
+
+.cc1{
+    grid-area: area1;
+}
+.cc2{
+    grid-area: area2;
+    
+}
+.cc3{grid-area: area3;
+margin: auto;
+height: 400px;
+width: 400px;
+}
