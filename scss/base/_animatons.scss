@@ -1,0 +1,191 @@
+//Albumes
+
+.ca3 iframe {
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+  }
+}
+.ca4 iframe {
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+  }
+}
+.ca2 {
+  animation-name: deslizar;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  transition: 1s;
+}
+.ca5 a {
+  animation-name: resalt;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+//Index
+.layout-1 {
+  h1 {
+    animation-name: rainbow;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+  }
+
+  .landing-1 {
+    p {
+      text-align: center;
+      color: rgba(255, 255, 255, 0);
+      font-size: 24px;
+    }
+    &:hover {
+      p {
+        color: white;
+        background-color: $fondo-oscuro;
+      }
+      transform: scale(1.1, 1.1);
+      transition: 0.5s;
+    }
+  }
+}
+//Noticias
+.cn1 {
+  animation-name: deslizar;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  transition: 1s;
+  h2 {
+    color: white;
+  }
+  &:hover {
+    h2 {
+      color: red;
+    }
+  }
+}
+.cn3 {
+  animation-name: deslizar;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  transition: 1s;
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
+    h2 {
+      color: red;
+    }
+    h3 {
+      animation-name: gradiente;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+.cn2 {
+  h2 {
+    color: white;
+  }
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
+    animation-name: gradiente;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-decoration: solid;
+    h2 {
+      animation: none;
+      color: red;
+    }
+  }
+}
+//contacto
+.cc2{&:hover{
+
+    transform: translateX(10%)
+    scale(1.1,1.1);
+    transition: 0.7s;
+}}
+//Keyframe
+@keyframes deslizar {
+  from {
+    scale: 0.1;
+  }
+  to {
+    scale: 1;
+  }
+}
+@keyframes resalt {
+  0% {
+    scale: 0.9;
+  }
+
+  50% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 0.9;
+  }
+}
+@keyframes rainbow {
+  0% {
+    color: white;
+  }
+  10% {
+    color: rgb(82, 90, 158);
+  }
+  20% {
+    color: blue;
+  }
+  30% {
+    color: rgb(105, 17, 248);
+  }
+  40% {
+    color: violet;
+  }
+  50% {
+    color: rgb(255, 0, 166);
+  }
+  60% {
+    color: red;
+  }
+  70% {
+    color: rgb(255, 85, 0);
+  }
+  80% {
+    color: orange;
+  }
+  90% {
+    color: rgb(255, 196, 0);
+  }
+  100% {
+    color: rgb(238, 233, 163);
+  }
+}
+@keyframes gradiente {
+  0% {
+    color: white;
+  }
+  25% {
+    color: rgb(172, 119, 232);
+  }
+  50% {
+    color: rgb(142, 50, 212);
+  }
+  75% {
+    color: rgb(172, 119, 232);
+  }
+  100% {
+    color: white;
+  }
+}
