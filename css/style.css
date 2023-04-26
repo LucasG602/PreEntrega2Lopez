@@ -140,6 +140,10 @@
 .cn1 {
   grid-area: area1;
 }
+.cn1 img {
+  height: 400px;
+  width: 400px;
+}
 
 .cn2 {
   grid-area: area2;
@@ -152,6 +156,12 @@
 
 .cn2 table {
   margin: auto;
+}
+
+.cn4 {
+  display: none;
+  margin: auto;
+  grid-area: area4;
 }
 
 .footer {
@@ -360,10 +370,7 @@ main p {
     justify-content: center;
   }
   .layout-2 .cn2 {
-    margin: 10%;
-  }
-  .layout-2 .cn2 table {
-    width: auto;
+    display: none;
   }
   .layout-2 .cn3 {
     margin: 10%;
@@ -371,8 +378,18 @@ main p {
   .layout-2 .cn3 iframe {
     width: auto;
   }
+  .layout-2 .cn4 {
+    width: 90%;
+    display: inherit;
+    grid-area: area2;
+    font-size: medium;
+  }
   .layout-2 .cn1 {
-    margin: 10%;
+    margin: auto;
+  }
+  .layout-2 .cn1 img {
+    width: auto;
+    height: 300px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -460,6 +477,29 @@ main p {
   }
   .layout-5 .cc2 {
     background-image: url(../../multimedia/Logo2.jpg);
+  }
+  /*Noticias Responsive*/
+  .layout-2 {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "area1" "area1" "area2" "area3";
+    font-size: small;
+    justify-content: center;
+  }
+  .layout-2 .cn2 {
+    margin: 10%;
+  }
+  .layout-2 .cn2 table {
+    width: auto;
+  }
+  .layout-2 .cn3 {
+    margin: 10%;
+  }
+  .layout-2 .cn3 iframe {
+    width: auto;
+  }
+  .layout-2 .cn1 {
+    margin: 10%;
   }
 }
 .ca3 iframe:hover {
@@ -564,6 +604,11 @@ main p {
 
 .cc2:hover {
   transform: translateX(10%) scale(1.1, 1.1);
+  transition: 0.7s;
+}
+
+.cc2:focus {
+  transform: scale(1, 1);
   transition: 0.7s;
 }
 

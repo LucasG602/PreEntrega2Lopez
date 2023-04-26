@@ -14,6 +14,7 @@
 
 .cn1 {
   grid-area: area1;
+  img{height: 400px; width: 400px;}
 }
 .cn2 {
   grid-area: area2;
@@ -25,3 +26,6 @@
 .cn2 table {
   margin: auto;
 }
+.cn4{display: none;
+margin: auto;
+grid-area: area4;}
